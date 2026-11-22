@@ -1,0 +1,3 @@
+the yolov8 does not seem to count people with a very well acuracy
+when i try to use youtube link as a reffrence url it shows some bugs so i fixit by "-f", "bv*[height<=1080]/bv*/b ( istall yt-dlp)
+the screan method is hard to use and not conviniente

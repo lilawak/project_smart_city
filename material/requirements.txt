@@ -4,3 +4,9 @@ opencv-python
 mss
 pynput
 ultralytics
+yt-dlp
+python capture_count.py --source url --url ../material/image.png --duration 0.05
+rm part1/results/frames_annotated/*.jpg , part1/results/frames_raw/*.jpg
+python capture_count.py -h 
+python capture_count.py  --url "https://www.youtube.com/watch?v=DjdUEyjx8GM" --interval 5 --duration 15 --out results_run2
+python plot_results.py --csv results_run1/people_count.csv --out results_run1/people_over_time.png
